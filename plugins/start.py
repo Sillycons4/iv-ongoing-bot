@@ -91,7 +91,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton('⛩️ OUR OTHER CHANNELS ⛩️', url='https://t.me/animemoviesr/3171')
                 ], [
                      InlineKeyboardButton("🤖 About Me", callback_data = "about"),
-                     InlineKeyboardButton("🔒 Close", callback_data = "close")
+                     InlineKeyboardButton("⛔️ Close", callback_data = "close")
          ]])
     
         await message.reply_text(
